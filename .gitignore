@@ -1,32 +1,26 @@
 ### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
-
 .idea/
 *.iml
+
+# Dependencies
+/node_modules
+/package-lock.json
+/yarn.lock
+
+# Build artifacts
+/build
+/dist
+/out
+.next/ # For Next.js projects
+
+# Logs and debug files
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# Environment variables and secrets
+#.env
+#.env.local
+#.env.development.local
+#.env.test.local
+#.env.production.local
