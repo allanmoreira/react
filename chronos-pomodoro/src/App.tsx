@@ -24,7 +24,14 @@ export function App() {
         <Container>
             <form className='form'>
                 <div className='formRow'>
-                    <DefaultInput id="meuInput" type="text" label="task" title="titulo" alt="texto alt"/>
+                    <DefaultInput id="meuInput"
+                                  type="text"
+                                  label="task"
+                                  title="titulo"
+                                  alt="texto alt"
+                                  placeholder="Informe o nome da task"
+                                  defaultValue="Texto default"
+                    />
                 </div>
                 <div className='formRow'>
                     <p>
