@@ -5,10 +5,10 @@ type DefaultInputProps = {
     label?: string;
 } & React.ComponentProps<'input'>
 
-export function DefaultInput({id, label, type, ...rest}: DefaultInputProps) {
+export function DefaultInput({id, label, type, ...props}: DefaultInputProps) {
     return(
         <>
             {label && <label htmlFor={id}>{label}</label>}
-            <input className={styles.input} id={id} type={type} {...rest}/>
+            <input className={styles.input} id={id} type={type} {...props}/>
         </>)
 }
