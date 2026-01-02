@@ -34,4 +34,8 @@
 
     --disabled: #555f7d;
     --text-disabled: #aab3cc;
+
+    --text-size-default: 1.4rem;
+    --text-size-title: 4.4rem;
+    --text-size-timer: 5.4rem;
 }

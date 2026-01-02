@@ -3,6 +3,6 @@ import styles from './styles.module.css'
 export function CountDown() {
     return(
         <div className={styles.container}>
-            00:00
+            <span className={styles.timerTitle}>00:00</span>
         </div>)
 }

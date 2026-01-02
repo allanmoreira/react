@@ -27,3 +27,7 @@ body {
     flex-direction: column;
     gap: 2.4rem;
 }
+
+.formRow p{
+    font-size: var(--text-size-default);
+}
